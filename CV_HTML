@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Casper Jaarsma's CV">
+  <meta name="author" content="Casper Jaarsma">
+
+  <title>Casper Jaarsma - CV</title>
+
+  <link rel="stylesheet" href="path/to/your/css/file.css">
+
+   <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    window.onscroll = function () {
+      var btn = document.getElementById("backToTopBtn");
+
+      btn.style.display = document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
+        ? "block"
+        : "none";
+    };
+  </script>
+</head>
+<body>
+
+<div id="drag" class="cv">
+    <div class="mainDetails">
+        <div id="headshot">
+            <img src="https://github.com/CasperJaa/CV/blob/main/magnifying-glass-data.jpg?raw=true" title="Data Banner" alt="Generic image of data with a magnifying glass" />
+        </div>
+
+        <div id="name">
+            <h1>Casper Jaarsma</h1>
+            <h3>Développeur Data/IA</h3>
+        </div>
+
+        <div id="contactDetails">
+    <ul>
+        <li><a href="//linkedin.com/in/casperjaarsma/" title="LinkedIn" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-with-original-colors/256/icon-linkedin.png" alt="LinkedIn Logo"></i></a></li>
+        <li><a href="//github.com/CasperJaa" title="GitHub" target="_blank"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo"></a></li>
+        <li><a href="mailto:jaarsmacasper@gmail.com">jaarsmacasper@gmail.com</a></li>
+        <li>+33 06 85 10 52 63</li>
+      <a href="https://github.com/CasperJaa/CV/blob/35c7d0051818291ac803c381faaf82faeea488fc/Jaarsma%20CV%20Fr.pdf" download>Mon CV (PDF)</a>
+    </ul>
+  </div>
+  <a href="#skills">Mes Compétences</a>
+  <a href="#experience">Mes Expériences</a>
+  <a href="#education">Mes Formations</a>
+<div class="clear"></div>
+</div>
+
+    <div id="mainArea">  
+      <section>
+        <article>
+          <div class="sectionTitle">
+            <h1>Profile</h1>
+          </div>
+
+          <div class="sectionContent">
+            <p>Analyste de données avec une expérience de leadership hôtelier, apte à tirer parti des données pour stimuler l'efficacité opérationnelle et améliorer les résultats commerciaux. Améliorer activement mon expertise en Data Science et Business Intelligence.</p>
+          </div>
+        </article>
+        <div class="clear"></div>
+      </section>
+
+ <section id="skills">
+        <div class="sectionTitle">
+          <h1>Compétences techniques et générales</h1>
+        </div>
+
+        <div class="sectionContent">
+          <ul class="keySkills">
+            <li>- SQL, Python</li>
+            <li>- Power BI, Tableau</li>
+            <li>- Git, Git-bash</li>
+            <li>- nettoyage et préparation des données</li>
+            <li>- Machine Learning (régression, clustering)</li>
+            <li>- Pensée analytique et critique</li>
+            <li>- Communication avec les parties prenantes</li>
+            <li>- Méthodologie Agile (Scrum)</li>
+            <li>- Anglais et Néerlandais natifs, Français niveau professionnel</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </section>
+
+<section id="experience">
+        <div class="sectionTitle">
+          <h1>Expérience</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>RESPONSABLE DES OPERATIONS</h2>
+            <h3>Chez Renauld, St Jean de Luz, France</h3>
+            <p class="subDetails">04/2016 – 09/2019</p>
+            <p><li>Direction et optimisation des opérations de 3 restaurants axés sur la maximisation de l'efficacité et de la rentabilité</li>
+<li>Adoption de décisions fondées sur les données pour optimiser les opérations, améliorant ainsi le traitement des commandes de 50 %</li>
+<li>Utilisation de l'analytique pour créer une formation ciblée, réduisant le roulement de 76,67 % et créant la stabilité de l'équipe</li>
+</p>
+          </article>
+
+          <article>
+            <h2>DIRECTEUR DES OPERATIONS</h2>
+            <h3>Boutique Hôtel, Pretoria, Afrique du Sud </h3>
+            <p class="subDetails">01/2012 – 03/2015</p>
+            <p><li>Supervision de 30 membres de l'équipe et supervision des opérations de l'hôtel pour améliorer la qualité du service et rationaliser les coûts</li>
+<li>Transformation de la qualité de service grâce à des avis basés sur des données, faisant passer la satisfaction client de 60 % à 89 %</li>
+<li>Mise en place d'une analyse des coûts basée sur les données, permettant de réduire de 30 % les dépenses opérationnelles</li>
+</p>
+          </article>
+
+          <article>
+             <h2>DIRECTEUR GENERAL ADJOINT</h2>
+            <h3>Hôtel Du Golf, Salies De Béarn, France</h3>
+            <p class="subDetails">01/2004 – 10/2011</p>
+            <p>•	Gestion des divisions hôtelières tout en stimulant les efforts de vente et de marketing soutenus par l'analyse des données</p>
+          </article>
+<button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>        
+        </div>
+        
+        
+        <div class="clear"></div>
+      </section>
+
+
+     <section id="education">
+        <div class="sectionTitle">
+          <h1>Formation et Certifications</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>MS LEARN</h2>
+            <p class="subDetails">En ligne | En cours</p>
+            <p>Power BI for Data Analysis
+</p>
+          </article>
+
+          <article>
+            <h2>SIMPLON MICROSOFT</h2>
+            <p class="subDetails">Bayonne, France | prévu 01/2024</p>
+            <p>Analyste de données et développeur d'IA</p>
+          </article>
+          
+          <article>
+  <h2>OPENCLASSROOMS</h2>
+  <p class="subDetails">France | diplômé Sep 2022</p>
+  <p>Data Analyst (Bac +3/4)</p>
+</article>
+
+          <article>
+  <h2>UDEMY</h2>
+  <p class="subDetails">En ligne | Obtenu en 2022</p>
+  <p><li>Data Science bootcamp</li>
+<li>Forecasting Models and Time Series for Business in Python
+</li>
+</p>
+</article>
+          
+          <article>
+  <h2>LONDON SCHOOL OF ECONOMICS</h2>
+  <p class="subDetails">Londres, Royaume-Uni | Diplôme obtenu</p>
+  <p>Diplôme d'études supérieures en comptabilité et gestion des affaires (Upper Class Honors)</p>
+</article>
+          
+          <article>
+  <h2>ECOLE HOTELIÈRE DE LAUSANNE</h2>
+  <p class="subDetails">Lausanne, Suisse | Diplôme obtenu</p>
+  <p>Associé de Science : Gestion hôtelière</p>
+</article>
+          
+          <article>
+  <h2>UNIVERSITÉ LEIDEN</h2>
+  <p class="subDetails">Leiden, Pays-Bas | Diplôme obtenu</p>
+  <p>Maîtrise en arts : Archéologie</p>
+</article>
+          <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+          </div>
+        <div class="clear"></div>
+      </section>
+  
+   </div>
+</div>
+
+
+</body>
